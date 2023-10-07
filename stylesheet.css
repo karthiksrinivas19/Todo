@@ -1,0 +1,80 @@
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3AAfA9; 
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color:#3AAfA9;
+    color:#def2f1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.maincontent {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color:#2B7A78; /* Background color for the main content */
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.maincontent h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid ;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: #17252a;
+    color:#def2f1;
+}
+.inputcont {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+.button1{
+    background-color:cadetblue ;
+    width: 100px;
+    height: 50px;
+    color:#def2f1;
+    border-radius: 10px;
+}
+
+
+ul#lists {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#lists li {
+    background-color: #f9f9f9; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+ul#lists li:hover {
+    background-color: #e0e0e0; 
+    cursor: pointer;
+}
+
